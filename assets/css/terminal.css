@@ -25,7 +25,13 @@ html {
   }
    
 
-   
+
+  .gradientCont {
+    position: relative !important;
+    top: auto !important;
+    bottom: 0 !important;
+  }
+
   .mainCont{
       width:1000px;
       margin: 0 auto;
@@ -95,10 +101,6 @@ html {
   #terminalReslutsCont a{
     color: rgb(0,256,0);
     text-decoration: none;
-  }
-   
-  #gradientCont {
-  z-index: -1; /* 将层级调整为低于其他元素 */
   }
    
   #terminalTextInput{ 
