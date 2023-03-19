@@ -97,7 +97,9 @@ html {
     text-decoration: none;
   }
    
-
+  #gradientCont {
+  z-index: -1; /* 将层级调整为低于其他元素 */
+  }
    
   #terminalTextInput{ 
       background: rgba(255,255,255,5%);
